@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Интернет-магазин</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">Интернет-магазин</div>
+      <button class="btn-cart" type="button">Корзина</button>
+    </header>
+    <main>
+      <div class="cart" hidden>
+        <div class="cart-container">
+          <table class="cart-table">
+            <tr>
+              <th>Название товара</th>
+              <th>Кол-во</th>
+              <th>Цена</th>
+              <th>Итого</th>
+              <th></th>
+            </tr>
+          </table>
+          <div class="cartBlock-total">
+            Товаров в корзине на сумму:
+            <span class="cart-total"></span>
+          </div>
+        </div>
+      </div>
+      <div class="products"></div>
+    </main>
+    <script src="js/main.js"></script>
+  </body>
+</html>
